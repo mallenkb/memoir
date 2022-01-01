@@ -2,7 +2,7 @@
   "name": "mallenkb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "tailwind.config.js",
   "scripts": {
     "build": "tailwindcss build -i src/style.css -o public/style.css"
   },
