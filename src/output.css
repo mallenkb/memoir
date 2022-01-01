@@ -930,6 +930,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
+.text-neutral-600{
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.text-neutral-300{
+  --tw-text-opacity: 1;
+  color: rgb(212 212 212 / var(--tw-text-opacity));
+}
+
+.text-neutral-400{
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity));
+}
+
 .opacity-75{
   opacity: 0.75;
 }
@@ -1314,6 +1329,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   .dark\:text-slate-400{
     --tw-text-opacity: 1;
     color: rgb(148 163 184 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-neutral-400{
+    --tw-text-opacity: 1;
+    color: rgb(163 163 163 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-neutral-300{
+    --tw-text-opacity: 1;
+    color: rgb(212 212 212 / var(--tw-text-opacity));
   }
 
   .dark\:hover\:text-blue-800:hover{
