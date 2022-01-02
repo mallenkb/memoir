@@ -892,6 +892,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.25rem;
 }
 
+.pr-2{
+  padding-right: 0.5rem;
+}
+
 .font-\[\'Inter\'\]{
   font-family: 'Inter';
 }
@@ -1143,6 +1147,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:py-1:hover{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.hover\:py-2:hover{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .hover\:text-white:hover{
