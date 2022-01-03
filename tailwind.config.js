@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      animation: {
+        bounce : 'bounce 4s linear infinite',
+      },
+
       fontFamily: {
         body: ["Inter", "sans-serif"],
       },
