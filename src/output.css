@@ -814,6 +814,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 640px;
 }
 
+.max-w-full{
+  max-width: 100%;
+}
+
 .-translate-x-2\/3{
   --tw-translate-x: -66.666667%;
   transform: var(--tw-transform);
